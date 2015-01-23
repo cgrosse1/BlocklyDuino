@@ -363,7 +363,9 @@ function init(blockly) {
   <table height="100%" width="100%">
     <tr>
       <td>
-        <img src="Arduino-uno-perspective-transparent.png" border="0" align="left" height=76/><h3>BlocklyDuino<br>éditeur graphique pour aider à la programmation des interfaces Arduino</h3>        
+        <!-- Modification Technozone51    -->
+        <table><tr><td><p id="cardpicture"><img src="Arduino.png" border="0" align="left" height=50/></p></td><td><h4>BlocklyDuino : éditeur graphique pour aider à la programmation des interfaces Arduino</h3></td></tr></table>        
+        <!-- Modification Technozone51    -->
       </td>
     </tr>
     <tr>
@@ -379,6 +381,7 @@ function init(blockly) {
             <td id="tab_xml" class="taboff" onclick="tabClick(this.id)">traduction_XML</td>
 			<td class="tabmin">&nbsp;</td>    
             <td class="tabmax">
+              <!-- Modification Technozone51    -->
               <TABLE CELLPADDING=10 CELLSPACING=20>
                <TR>	<TD>
               <form name="pinoutform"><Select id="pinout" size="1" onclick="shield()"><Option value="arduino">Arduino UNO</Option><Option value="arduino_mega">Arduino MEGA</Option></Select></form>
@@ -388,6 +391,7 @@ function init(blockly) {
               <button id="fakeload">Charger un fichier XML</button>
 	      		  <button onclick="lang()">Langues</button>
                </TD></TR></TABLE>
+               <!-- Modification Technozone51    -->
               <input type="file" id="load" style="display: none;"/>
             </td>
           </tr>
